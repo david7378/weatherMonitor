@@ -56,19 +56,19 @@ Before running the application, make sure you have the following installed:
    Create a .env file in the project root.
    Add the following line to the .env file, replacing <YOUR_API_KEY> with your actual API key
 
-```bash
-  REACT_APP_API_KEY=<YOUR_API_KEY>
+   ```bash
+     REACT_APP_API_KEY=<YOUR_API_KEY>
 
-```
+   ```
 
 5. Set up your WeatherAPI.com API key:
 
-```bash
-npm run dev
+   ```bash
+   npm run dev
 
-```
+   ```
 
 6. Open your browser and navigate to your localhost to see the application.
 
-License
-This project is licensed under the MIT License.
+   License
+   This project is licensed under the MIT License.
