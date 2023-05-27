@@ -1,6 +1,6 @@
 # Weather Monitor
 
-![Weather App Screenshot](/src/assets/img.avif)
+![Weather App Screenshot](/src/assets/img.avif){width='300px' height='630px'}
 
 This is a simple weather application built with React and Vite. It utilizes the WeatherAPI.com API to fetch weather data based on user input.
 
