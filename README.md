@@ -4,7 +4,7 @@ A weather app provides real-time and forecasted weather information for a specif
 
 # Weather App
 
-![Weather App Screenshot](screenshot.png)
+![Weather App Screenshot](/src/assets/img.avif)
 
 This is a simple weather application built with React and Vite. It utilizes the WeatherAPI.com API to fetch weather data based on user input.
 
@@ -61,7 +61,7 @@ Before running the application, make sure you have the following installed:
    Add the following line to the .env file, replacing <YOUR_API_KEY> with your actual API key
 
 ```bash
-REACT_APP_API_KEY=<YOUR_API_KEY>
+  REACT_APP_API_KEY=<YOUR_API_KEY>
 
 ```
 
@@ -72,4 +72,7 @@ npm run dev
 
 ```
 
-6. Open your browser and navigate to http://localhost:3000 to see the application.
+6. Open your browser and navigate to your localhost to see the application.
+
+License
+This project is licensed under the MIT License.
