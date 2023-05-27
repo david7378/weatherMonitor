@@ -3,7 +3,7 @@ module.exports = {
     "<rootDir>/src/"
   ],
   transform: {
-    '^.+\\.tsx?$': ['ts-jest', {//the content you'd placed at "global"
+    '^.+\\.tsx?$': ['ts-jest', {
       babel: true,
       tsconfig: 'tsconfig.json',
     }]
@@ -18,7 +18,6 @@ module.exports = {
     "\\.(css|less|scss)$": "identity-obj-proxy",
   },
   setupFilesAfterEnv: ['./jest.setup.ts'],
-  //testPathIgnorePatterns: ["<rootDir>/node_modules/", "<rootDir>/build/"],
   moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json"],
   testMatch: [
     "<rootDir>/src/**/*.(test).{js,jsx,ts,tsx}",
