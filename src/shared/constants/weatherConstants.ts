@@ -1,0 +1,12 @@
+export const BASE_URL = process.env.VITE_WEATHER_API_URL;
+export const WEATHER_KEY = process.env.VITE_WEATHER_API_KEY;
+export const CURRENT_WEATHER = '/current.json';
+export const FORECAST_WEATHER = '/forecast.json';
+export const SEARCH_WEATHER = '/search.json?';
+export const HISTORY_WEATHER = '/history.json';
+export const FUTURE_WEATHER = '/future.json';
+export const DAYS = 5;
+export const HOURS_DAY = 24;
+export const HOURS_DAYS_MINUS_FOUR = 20;
+export const NOW_TITLE = 'Now';
+export const ZERO_MINS = '00';
