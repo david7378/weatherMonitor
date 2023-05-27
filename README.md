@@ -1,8 +1,4 @@
-A weather app provides real-time and forecasted weather information for a specified location.
-
-# weatherMonitor
-
-# Weather App
+# Weather Monitor
 
 ![Weather App Screenshot](/src/assets/img.avif)
 
