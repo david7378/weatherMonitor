@@ -70,5 +70,5 @@ Before running the application, make sure you have the following installed:
 
 6. Open your browser and navigate to your localhost to see the application.
 
-   License
+7. License:
    This project is licensed under the MIT License.
