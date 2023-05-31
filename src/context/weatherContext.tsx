@@ -9,6 +9,7 @@ export const WeatherProvider = ({ children }: { children: ReactNode }) => {
 	const [weatherData, setWeatherData] = useState({});
 
 	useEffect(() => {
+		if (!location) return;
 		const fetchData = async () => {
 			try {
 				const data = await fetchWeatherData(location);
