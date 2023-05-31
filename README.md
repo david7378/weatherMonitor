@@ -62,7 +62,7 @@ Before running the application, make sure you have the following installed:
 
    ```
 
-5. Set up your WeatherAPI.com API key:
+5. Start the application:
 
    ```bash
    npm run dev
