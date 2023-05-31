@@ -1,5 +1,9 @@
 # Weather Monitor
 
+# <<<<<<< HEAD
+
+> > > > > > > 62b4adfa5a46ba536a2c187f23cdbb09fff33853
+
 <img src="/src/assets/img.avif" alt="WeatherMonitor-app" width="260px">
 This is a simple weather application built with React and Vite. It utilizes the WeatherAPI.com API to fetch weather data based on user input.
 
@@ -71,26 +75,3 @@ Before running the application, make sure you have the following installed:
    ```
 
 6. Open your browser and navigate to your localhost to see the application.
-
-Docker Compose
-The project includes Docker Compose files for both development and production environments. This allows for easy containerization and deployment of the Weather App.
-
-- For development, use the docker-compose.dev.yml file.
-- For production, use the docker-compose.prod.yml file.
-
-To run the Weather App using Docker Compose, follow these steps:
-
-1. Make sure you have Docker installed and running on your machine.
-2. Open a terminal and navigate to the project directory.
-3. Run the following command to start the Weather App in development mode:
-
-   ```bash
-   docker-compose -f docker-compose.dev.yml up -d
-   ```
-
-   This will build the Docker containers and start the Weather App.
-
-4. Open your browser and navigate to http://localhost:3000 to see the Weather App running in the Docker container.
-
-Nginx
-Nginx has been utilized as the web server for the Weather App. It serves the static files and handles routing requests to the appropriate endpoints.
