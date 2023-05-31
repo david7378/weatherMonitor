@@ -1,5 +1,5 @@
-export const BASE_URL = process.env.VITE_WEATHER_API_URL;
 export const WEATHER_KEY = process.env.VITE_WEATHER_API_KEY;
+export const BASE_URL = 'http://api.weatherapi.com/v1';
 export const CURRENT_WEATHER = '/current.json';
 export const FORECAST_WEATHER = '/forecast.json';
 export const SEARCH_WEATHER = '/search.json?';
