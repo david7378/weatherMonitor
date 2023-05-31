@@ -58,7 +58,7 @@ Before running the application, make sure you have the following installed:
    Add the following line to the .env file, replacing <YOUR_API_KEY> with your actual API key
 
    ```bash
-     REACT_APP_API_KEY=<YOUR_API_KEY>
+     VITE_WEATHER_API_KEY=<YOUR_API_KEY>
 
    ```
 
@@ -71,8 +71,8 @@ Before running the application, make sure you have the following installed:
 
 6. Open your browser and navigate to your localhost to see the application.
 
-7. Docker (optional)   
-The project includes Docker Compose files for both development and production environments. This allows for easy containerization and deployment of the Weather App.
+7. Docker (optional)  
+   The project includes Docker Compose files for both development and production environments. This allows for easy containerization and deployment of the Weather App.
 
 - For development, use the docker-compose.dev.yml file.
 - For production, use the docker-compose.prod.yml file.
