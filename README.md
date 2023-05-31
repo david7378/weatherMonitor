@@ -26,7 +26,7 @@ This is a simple weather application built with React and Vite. It utilizes the 
 Before running the application, make sure you have the following installed:
 
 - Node.js
-- Docker
+- Docker (optional)
 
 ## Getting Started
 
