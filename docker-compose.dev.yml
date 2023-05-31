@@ -8,5 +8,3 @@ services:
       - 3001:3001
     volumes:
       - "./src:/app/src"
-    environment:
-      - NODE_ENV=development
