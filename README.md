@@ -79,23 +79,23 @@ Before running the application, make sure you have the following installed:
 
   To run the Weather App using Docker Compose, follow these steps:
 
-1. Make sure you have Docker installed and running on your machine.
-2. Open a terminal and navigate to the project directory.
-3. Run the following command to start the Weather App in development mode:
+   1. Make sure you have Docker installed and running on your machine.
+   2. Open a terminal and navigate to the project directory.
+   3. Run the following command to start the Weather App in development mode:
 
-   ```bash
-   docker-compose -f docker-compose.dev.yml up -d
-   ```
+      ```bash
+      docker-compose -f docker-compose.dev.yml up -d
+      ```
 
-   This will build the Docker containers and start the Weather App.
+      This will build the Docker containers and start the Weather App.
 
-4. Open your browser and navigate to http://localhost:3001 to see the Weather App running in the Docker container.
-5. To run the Weather App in production mode, use the following command:
-   ```bash
-   docker-compose -f docker-compose.prod.yml up -d
-   ```
-   This will build the Docker containers and start the Weather App with production settings.
-   Open your browser and navigate to http://localhost to see the Weather App running in the Docker container in production mode.
+   4. Open your browser and navigate to http://localhost:3001 to see the Weather App running in the Docker container.
+   5. To run the Weather App in production mode, use the following command:
+      ```bash
+      docker-compose -f docker-compose.prod.yml up -d
+      ```
+      This will build the Docker containers and start the Weather App with production settings.
+      Open your browser and navigate to http://localhost to see the Weather App running in the Docker container in production mode.
 
 If you need more information about Docker and its functionalities, you can refer to the [Docker documentation](https://docs.docker.com/). The Docker documentation provides detailed explanations, tutorials, and references to help you understand and work with Docker effectively.
 
