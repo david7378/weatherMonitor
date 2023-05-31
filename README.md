@@ -90,7 +90,15 @@ To run the Weather App using Docker Compose, follow these steps:
 
    This will build the Docker containers and start the Weather App.
 
-4. Open your browser and navigate to http://localhost:3000 to see the Weather App running in the Docker container.
+4. Open your browser and navigate to http://localhost:3001 to see the Weather App running in the Docker container.
+5. To run the Weather App in production mode, use the following command:
+   ```bash
+   docker-compose -f docker-compose.prod.yml up -d
+   ```
+   This will build the Docker containers and start the Weather App with production settings.
+   Open your browser and navigate to http://localhost to see the Weather App running in the Docker container in production mode.
+
+If you need more information about Docker and its functionalities, you can refer to the [Docker documentation](https://docs.docker.com/). The Docker documentation provides detailed explanations, tutorials, and references to help you understand and work with Docker effectively.
 
 Nginx
 Nginx has been utilized as the web server for the Weather App. It serves the static files and handles routing requests to the appropriate endpoints.
