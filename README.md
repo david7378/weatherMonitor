@@ -71,7 +71,7 @@ Before running the application, make sure you have the following installed:
 
 6. Open your browser and navigate to your localhost to see the application.
 
-   Docker Compose
+7. Docker (optional)
    The project includes Docker Compose files for both development and production environments. This allows for easy containerization and deployment of the Weather App.
 
 - For development, use the docker-compose.dev.yml file.
